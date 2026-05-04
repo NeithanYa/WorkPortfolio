@@ -11,15 +11,15 @@ const skillCategories = [
   },
   {
     title: "Backend",
-    skills: ["Node.js", "Python", "PostgreSQL", "MongoDB", "GraphQL", "REST APIs"],
+    skills: ["Node.js", "Python", "PostgreSQL", "REST APIs"],
   },
   {
     title: "Tools & Practices",
-    skills: ["Git", "Docker", "CI/CD", "AWS", "Vercel", "Testing"],
+    skills: ["Git", "Docker", "Vercel", "Testing"],
   },
   {
     title: "Design",
-    skills: ["Figma", "UI/UX", "Responsive Design", "Accessibility", "Design Systems"],
+    skills: ["Figma", "UI/UX", "Responsive Design", "Design Systems"],
   },
 ];
 

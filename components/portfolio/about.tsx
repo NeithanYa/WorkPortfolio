@@ -16,8 +16,8 @@ export function About() {
   ];
 
   return (
-    <section 
-      id="about" 
+    <section
+      id="about"
       ref={ref}
       className="py-24 px-6 lg:px-16"
     >
@@ -28,7 +28,7 @@ export function About() {
           transition={{ duration: 0.8 }}
           className="space-y-8"
         >
-          <motion.h2 
+          <motion.h2
             className="text-3xl font-bold text-foreground"
             initial={{ opacity: 0, y: 30 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
@@ -43,12 +43,9 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.3 }}
             >
-              I&apos;m a developer passionate about crafting accessible, pixel-perfect user 
-              interfaces that blend thoughtful design with robust engineering. My favorite 
-              work lies at the intersection of design and development, creating experiences 
-              that not only look great but are meticulously built for{" "}
-              <span className="text-primary font-medium">performance</span> and{" "}
-              <span className="text-primary font-medium">usability</span>.
+              I&apos;m a Roblox scripter focused on building systems that are clean, reliable, and made to scale. I don’t just script features — I build the structure behind games so they actually {" "}
+              <span className="text-primary font-medium">work</span>{" "}
+              <span className="text-primary font-medium">long-term.</span>.
             </motion.p>
 
             <motion.p
@@ -56,14 +53,8 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.4 }}
             >
-              Currently, I&apos;m a Senior Developer at{" "}
-              <span className="text-foreground font-semibold hover:text-primary transition-colors cursor-pointer">
-                TechCorp
-              </span>
-              , specializing in building scalable web applications. I contribute to the 
-              creation and maintenance of components that power the company&apos;s frontend, 
-              ensuring our platform meets modern standards and best practices to deliver 
-              an inclusive user experience.
+
+              I’ve spent time learning through real projects, breaking down how successful games are built, and applying that into my own systems. This lets me develop efficiently while avoiding messy or unoptimized code.
             </motion.p>
 
             <motion.p
@@ -71,18 +62,8 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.5 }}
             >
-              In the past, I&apos;ve had the opportunity to develop software across a variety 
-              of settings — from{" "}
-              {highlights.map((item, index) => (
-                <span key={item.label}>
-                  <span className="text-foreground font-medium">{item.label}</span>
-                  {index < highlights.length - 2 && ", "}
-                  {index === highlights.length - 2 && " and "}
-                </span>
-              ))}
-              . Additionally, I also released a comprehensive{" "}
-              <span className="text-foreground font-semibold">video course</span> teaching 
-              modern web development practices.
+              I mainly work on gameplay systems, data handling, and core mechanics — anything that needs to be solid behind the scenes.
+
             </motion.p>
 
             <motion.p
@@ -90,9 +71,7 @@ export function About() {
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{ delay: 0.6 }}
             >
-              In my spare time, I&apos;m usually hiking, reading, contributing to open source 
-              projects, or exploring new technologies. I believe in continuous learning and 
-              sharing knowledge with the community.
+              Right now, I’m looking to collaborate on projects that need strong systems and someone who can turn ideas into something playable.
             </motion.p>
           </div>
         </motion.div>
